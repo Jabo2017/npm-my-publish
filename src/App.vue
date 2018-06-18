@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <my-button :text="textName" />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
 
+import Button from './components/Button'
+
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    'my-button':Button
+  },
+  data(){
+    return {
+      textName:"hello"
+    }
   }
 }
 </script>
