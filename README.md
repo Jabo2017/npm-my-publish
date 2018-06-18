@@ -45,3 +45,15 @@
 # 注意包名不要重复
 
 >在[npm官网搜索](https://www.npmjs.com/) 发布的包名  npm-my-publish 即可找到
+
+
+# 模块测试
+>npm install npm-my-publish --save-dev
+
+
+# 问题： npm 包如何打包样式?
+
+
+# [npm安装发布参考](https://www.cnblogs.com/penghuwan/p/6973702.html)
+
+

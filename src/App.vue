@@ -1,18 +1,19 @@
 <template>
   <div id="app">
     <my-button :text="textName" />
+    <Test />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Test from './components/Test'
 
 import Button from './components/Button'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    Test,
     'my-button':Button
   },
   data(){
