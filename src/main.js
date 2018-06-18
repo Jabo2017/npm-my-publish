@@ -3,9 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 
-import NpmPublish from './components/Button'
+import NpmMyPublish from './components/Button'
 
-export default NpmPublish
+export default NpmMyPublish
 
 Vue.config.productionTip = false
 

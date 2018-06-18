@@ -25,8 +25,8 @@ const webpackConfig = merge(baseWebpackConfig, {
   output: {
     path: config.build.assetsRoot,
     publicPath: config.build.assetsPublicPath,
-    filename: 'npm-publish.min.js',
-    library:'NpmPublish',
+    filename: 'npm-my-publish.min.js',
+    library:'NpmMyPublish',
     libraryTarget: 'umd'
   },
 
