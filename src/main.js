@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 
+import NpmPublish from './components/Button'
+
+export default NpmPublish
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

@@ -25,8 +25,8 @@ const webpackConfig = merge(baseWebpackConfig, {
   output: {
     path: config.build.assetsRoot,
     publicPath: config.build.assetsPublicPath,
-    filename: 'vue-my-component.min.js',
-    library:'VueMyComponent',
+    filename: 'npm-publish.min.js',
+    library:'NpmPublish',
     libraryTarget: 'umd'
   },
 
